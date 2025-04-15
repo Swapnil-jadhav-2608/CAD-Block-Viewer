@@ -1,0 +1,33 @@
+{
+    "name": "cad-block-viewer",
+    "version": "1.0.0",
+    "description": "A simple web application to view and interact with CAD blocks",
+    "main": "backend/app.js",
+    "scripts": {
+        "start": "node backend/app.js",
+        "dev": "nodemon backend/app.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dxf-parser": "^1.1.2",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.0",
+        "pg": "^8.11.0",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.32.1"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0",
+        "supertest": "^7.1.0"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "keywords": [
+        "nodejs",
+        "express",
+        "cad",
+        "dxf",
+        "blocks"
+    ]
+}
